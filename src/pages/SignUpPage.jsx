@@ -11,7 +11,7 @@ const SignUpPage = () => {
 		password: "",
 		confirmPassword: "",
 	});
-
+	
 	const { signup, loading } = useUserStore();
 
 	const handleSubmit = (e) => {
